@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*grid settings*/
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*header settings*/
+
+header{
+    background-color: black;
+}
+
+.container_header{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button_menu i{
+    display: none;
+    color: white;
+    font-size: 30px;
+}
+
+.container_header img{
+    width: 406px;
+}
+
+nav{
+    width: 465px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    font-family: 'Roboto', cursive;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*Banners Settings*/
+
+section{
+    width: 100%;
+    height: 607px;
+}
+
+
+
+.container_banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 607px;
+}
+
+.banner1{
+background: linear-gradient(90deg, #C31616 35.94%, #7C0000 46.8%, #000000 60.42%, #000000 100%);
+
+}
+
+.container_banner img {
+    height: 450px;
+    margin-top: 157px;
+}
+
+.conteúdo_banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteúdo_banner h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 85px;
+    height: 102px;
+    color: white;
+}
+
+.conteúdo_banner span{
+    font-family:'Roboto', cursive;
+    font-size: 32px;
+    color: white;
+}
+
+.conteúdo_banner a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.banner1 a {
+    background-color: red;
+}
+
+/*Sponsers*/
+
+.sponsors {
+    background-color: black;
+    height: 110px;
+}
+
+.container_sponsors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+/*Colaborate*/
+
+.container_colaborate{
+    background-image: url(../E-Players/assets_/bg-lol.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 750px;
+    width: 100%;
+}
+
+.color {
+    background-color: rgba(0, 136, 236, 40%);
+    height: 100%;
+    width: 100%;
+}
+
+.polygon {
+    clip-path: polygon(0 19%, 100% 0, 100% 82%, 0% 100%);
+    background-color: rgba(0, 0, 0, 80%);
+    height: 100%;
+}
+
+.container_leagues {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.container_leagues img {
+    height: 100%;
+}
+
+.container_text h2 {
+    font-size: 50px;
+}
+
+.container_text p {
+    width: 650px;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.league_text {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}
+
+/* Live Games */
+
+.live_section {
+    background-color: black;
+    height: 110px;
+}
+
+.live_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.live_container {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.games span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.title {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.bola {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.um{
+    width: 115px;
+}
+
+.um div {
+    background-color: red;
+}
+
+.dois {
+    width: 130px;
+}
+
+.dois div {
+    background-color: #6B6B6B;
+}
+
+.circle {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.live_container hr {
+    height: 90px;
+}
+
+.games {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 240px;
+}
+
+.games img {
+    width: 50px;
+    height: 50px;
+}
+
+.bulls{
+    background-color: white;
+}
+
+.games .lakers {
+    width: 59px;
+    height: 45px;
+}
+
+/* News */
+
+.section_news {
+    background-color: #1E1C21;
+    height: 900px;
+    display: flex;
+    align-items: center;
+}
+
+.section_news h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.next_news {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div_tittle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container_news {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 740px;
+}
+
+.espaço {
+    display: flex;
+    justify-content: space-evenly;
+    width: 790px;
+}
+
+.news {
+    width: 240px;
+    height: 345px;
+    background: linear-gradient(to bottom, rgba(45, 45, 45, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    box-shadow: 13px 8px 7px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news img {
+    width: 240px;
+    height: 158px;
+}
+
+.news h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.news p {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    text-align: justify;
+    padding: 0 8px;
+}
+
+/* Next Games Part */
+
+.container_next {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 825px;
+}
+
+.container_next span {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.background {
+    background: linear-gradient(to bottom, rgba(3, 3, 3, 1) 0%, rgba(49, 49, 49, 1) 26%, rgba(44, 44, 44, 1) 77%, rgba(5, 5, 5, 1) 100%);
+    width: 286px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.games .bul, .games .llk {
+    width: 59px;
+    height: 39px;
+}
+
+/* Footer Settings */
+
+footer {
+    background-color: black;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.container_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links_container {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}
+
+.links_container span {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.links_container li {
+    color: white;
+}
+
+.links_container a {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.folow_us .clan {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.folow_us .folow {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.folow_us img {
+    height: 40px;
+    width: 40px;
+}
+
+.singup {
+    display: flex;
+}
+
+.singup input {
+    height: 40px;
+    width: 220px;
+}
+
+.singup a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #016AB7;
+    height: 40px;
+    width: 126px;
+}
+
+.singup a span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.social_media {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
